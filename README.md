@@ -1,6 +1,9 @@
 # Resume Builder Web App (ATS-Friendly)
 
+🔗 **Live Demo:** https://msivateja123.github.io/Resume-Builder-web-app/
+
 A simple web application that helps users create professional, ATS-friendly resumes with live preview and PDF download.
+
 
 ## Features
 - Live resume preview
@@ -15,3 +18,4 @@ A simple web application that helps users create professional, ATS-friendly resu
 
 ## How to Run
 Open index.html in a browser.
+
