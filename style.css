@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main layout */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* Form section */
+.form {
+    width: 40%;
+}
+
+/* Inputs */
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Resume preview */
+.resume {
+    width: 60%;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.resume h2 {
+    margin-bottom: 0;
+}
+
+.resume h3 {
+    margin-top: 15px;
+}

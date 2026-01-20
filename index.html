@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h1>Resume Builder (ATS Friendly)</h1>
+
+<div class="container">
+
+    <div class="form">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="text" id="role" placeholder="Job Role">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="phone" placeholder="Phone Number">
+
+        <textarea id="summary" placeholder="Professional Summary"></textarea>
+        <textarea id="skills" placeholder="Skills (comma separated)"></textarea>
+        <textarea id="experience" placeholder="Experience"></textarea>
+        <textarea id="education" placeholder="Education"></textarea>
+
+        <button onclick="generateResume()">Generate Resume</button>
+        <button onclick="downloadPDF()">Download PDF</button>
+    </div>
+
+    <div class="resume" id="resume">
+        <h2 id="r-name"></h2>
+        <p id="r-role"></p>
+        <p><span id="r-email"></span> | <span id="r-phone"></span></p>
+
+        <h3>Professional Summary</h3>
+        <p id="r-summary"></p>
+
+        <h3>Skills</h3>
+        <p id="r-skills"></p>
+
+        <h3>Experience</h3>
+        <p id="r-experience"></p>
+
+        <h3>Education</h3>
+        <p id="r-education"></p>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
